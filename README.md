@@ -22,3 +22,11 @@ python3 manage.py startapp app # 创建一个 app 项目并初始化数据
 ```bash
 python manage.py runserver 
 ```
+
+
+# Uris
+
+| Uri        | 页面名称 | 简单说明    |
+|------------|------|---------|
+| `/`        | 首页   | 返回字符串响应 |
+| `/welcome` | 欢迎页  | 返回页面视图  |
